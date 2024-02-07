@@ -1,0 +1,101 @@
+@import '../Variables/Variables.scss';
+.app-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: $primary-font;
+    .app-title {
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .input-label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+  
+    .input-field {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+      box-sizing: border-box;
+      margin-right: 1rem;
+
+    }
+  
+    .submit-button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: $button-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    .loading {
+      color: #007bff;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+
+
+    /* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+
+  .input-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  .input-field {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 1rem;
+
+  }
+
+  .submit-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .todo-task{
+    width: 15rem;
+    font-size: 1rem;
+  }
+  .update-button,
+  .delete-button {
+    padding: 0.4rem 0.7rem;
+    margin: 0.4rem;
+  }
+
+}
+  
